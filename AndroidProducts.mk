@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/superior_merlinx.mk
+   $(LOCAL_DIR)/voltage_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_merlinx-user \
-    superior_merlinx-userdebug \
-    superior_merlinx-eng
+    voltage_merlinx-user \
+    voltage_merlinx-userdebug \
+    voltage_merlinx-eng
