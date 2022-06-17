@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/blaze_merlinx.mk
+   $(LOCAL_DIR)/aosp_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_merlinx-user \
-    blaze_merlinx-userdebug \
-    blaze_merlinx-eng
+    aosp_merlinx-user \
+    aosp_merlinx-userdebug \
+    aosp_merlinx-eng
