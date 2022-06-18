@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
 
 
 USE_GAPPS := true
+WITH_GAPPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
 
