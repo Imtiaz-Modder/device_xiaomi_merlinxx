@@ -48,6 +48,6 @@ PRODUCT_COPY_FILES += \
 
 
 
-TARGET_SUPPORTS_QUICK_TAP := true
+
 
 
