@@ -30,7 +30,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP_RECOVERY := true
-BLISS_BUILD_VARIANT := gapps
 $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 #
@@ -53,3 +52,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="merlin-user 11 RP1A.200720.0
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Redmi/merlin/merlin:11/RP1A.200720.011/V12.0.1.0.RJOMIXM:user/release-keys
+
+CORVUS_MAINTAINER=IMTIAZ
+USE_GAPPS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_BLUR := true/false
+
