@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/derp_merlinx.mk
+   $(LOCAL_DIR)/bliss_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_merlinx-user \
-    derp_merlinx-userdebug \
-    derp_merlinx-eng
+    bliss_merlinx-user \
+    bliss_merlinx-userdebug \
+    bliss_merlinx-eng
