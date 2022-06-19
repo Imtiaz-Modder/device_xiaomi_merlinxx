@@ -47,8 +47,7 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/sku_props/build_dsds_vendor.prop:$(TARGET_COPY_OUT_VENDOR)/build_dsds_vendor.prop
 
 
-USE_GAPPS := true
-WITH_GAPPS := true
+
 TARGET_SUPPORTS_QUICK_TAP := true
 
 
