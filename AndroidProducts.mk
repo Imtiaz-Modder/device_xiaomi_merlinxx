@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/aospa_merlinx.mk
+   $(LOCAL_DIR)/cipher_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    aospa_merlinx-user \
-    aospa_merlinx-userdebug \
-    aospa_merlinx-eng
+    cipher_merlinx-user \
+    cipher_merlinx-userdebug \
+    cipher_merlinx-eng
