@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/ssos_merlinx.mk
+   $(LOCAL_DIR)/xdroid_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_merlinx-user \
-    ssos_merlinx-userdebug \
-    ssos_merlinx-eng
+    xdroid_merlinx-user \
+    xdroid_merlinx-userdebug \
+    xdroid_merlinx-eng
