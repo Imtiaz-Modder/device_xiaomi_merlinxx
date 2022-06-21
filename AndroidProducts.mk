@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/aosp_merlinx.mk
+   $(LOCAL_DIR)/styx_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_merlinx-user \
-    aosp_merlinx-userdebug \
-    aosp_merlinx-eng
+    styx_merlinx-user \
+    styx_merlinx-userdebug \
+    styx_merlinx-eng
