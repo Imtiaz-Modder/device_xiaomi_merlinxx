@@ -40,7 +40,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := merlinx
-PRODUCT_NAME := corvus_merlinx
+PRODUCT_NAME := lineage_merlinx
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 
@@ -55,4 +55,4 @@ BUILD_FINGERPRINT := Redmi/merlin/merlin:11/RP1A.200720.011/V12.0.1.0.RJOMIXM:us
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_BLUR := true/false
 WITH_GAPPS := true
-CORVUS_MAINTAINER := Imtiaz
+RICE_MAINTAINER := Imtiaz
