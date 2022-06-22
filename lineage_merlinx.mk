@@ -30,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP_RECOVERY := true
-$(call inherit-product, vendor/corvus/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common.mk)
 
 #
 # All components inherited here go to system_ext image
