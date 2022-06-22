@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/voltage_merlinx.mk
+   $(LOCAL_DIR)/corvus_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_merlinx-user \
-    voltage_merlinx-userdebug \
-    voltage_merlinx-eng
+    corvus_merlinx-user \
+    corvus_merlinx-userdebug \
+    corvus_merlinx-eng
