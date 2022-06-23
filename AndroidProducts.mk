@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/voltage_merlinx.mk
+   $(LOCAL_DIR)/spiceos_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_merlinx-user \
-    voltage_merlinx-userdebug \
-    voltage_merlinx-eng
+    spiceos_merlinx-user \
+    spiceos_merlinx-userdebug \
+    spiceos_merlinx-eng
