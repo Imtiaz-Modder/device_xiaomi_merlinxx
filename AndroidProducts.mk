@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/corvus_merlinx.mk
+   $(LOCAL_DIR)/elytra_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_merlinx-user \
-    corvus_merlinx-userdebug \
-    corvus_merlinx-eng
+    elytra_merlinx-user \
+    elytra_merlinx-userdebug \
+    elytra_merlinx-eng
