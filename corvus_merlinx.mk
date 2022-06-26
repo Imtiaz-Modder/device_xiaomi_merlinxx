@@ -29,8 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Inherit from our custom product configuration
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_USES_AOSP_RECOVERY := true
-$(call inherit-product, vendor/corvus/config/common.mk)
+$(call inherit-product, vendor/elytra/config/common_full_phone.mk)
 
 #
 # All components inherited here go to system_ext image
@@ -40,7 +39,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := merlinx
-PRODUCT_NAME := corvus_merlinx
+PRODUCT_NAME := elytra_merlinx
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 
@@ -54,5 +53,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="merlin-user 11 RP1A.200720.0
 BUILD_FINGERPRINT := Redmi/merlin/merlin:11/RP1A.200720.011/V12.0.1.0.RJOMIXM:user/release-keys
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_BLUR := true/false
-WITH_GAPPS := true
-CORVUS_MAINTAINER := Imtiaz
+USE_GAPPS := true
