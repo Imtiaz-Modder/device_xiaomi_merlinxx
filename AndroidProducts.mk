@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/elytra_merlinx.mk
+   $(LOCAL_DIR)/xdroid_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    elytra_merlinx-user \
-    elytra_merlinx-userdebug \
-    elytra_merlinx-eng
+    xdroid_merlinx-user \
+    xdroid_merlinx-userdebug \
+    xdroid_merlinx-eng
