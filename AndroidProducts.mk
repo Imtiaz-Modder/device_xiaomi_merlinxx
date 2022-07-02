@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/fuse_merlinx.mk
+   $(LOCAL_DIR)/aosp_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-   fuse_merlinx-user \
-    fuse_merlinx-userdebug \
-    fuse_merlinx-eng
+   aosp_merlinx-user \
+    aosp_merlinx-userdebug \
+    aosp_merlinx-eng
