@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/havoc_merlinx.mk
+   $(LOCAL_DIR)/fuse_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_merlinx-user \
-    havoc_merlinx-userdebug \
-    havoc_merlinx-eng
+   fuse_merlinx-user \
+    fuse_merlinx-userdebug \
+    fuse_merlinx-eng
