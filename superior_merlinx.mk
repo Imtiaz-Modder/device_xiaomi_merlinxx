@@ -56,3 +56,5 @@ TARGET_SUPPORTS_BLUR := true/false
 USE_GAPPS := true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.fusion.maintainer=Imtiaz
+# Gapps
+TARGET_GAPPS_ARCH := arm64
